@@ -1,0 +1,51 @@
+.section__main {
+  @media screen and (max-width: 666px) {
+    padding: 0.83rem 1.54rem;
+    text-align: center;
+  }
+
+  background: var(--2, linear-gradient(159deg, #feca57 0%, #e3aa2d 100%));
+}
+
+.main__text--h2 {
+  @media screen and (max-width: 666px) {
+    color: #212121;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 1.33rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.067rem;
+    text-transform: uppercase;
+  }
+}
+.main__text--h3 {
+  @media screen and (max-width: 666px) {
+    color: #fff;
+    text-align: center;
+    font-family: Galada;
+    font-size: 1.08rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.main__button {
+  @media screen and (max-width: 666px) {
+    max-width: 12rem;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 2.08rem;
+    background: #01a3a4;
+
+    color: #fff;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}
