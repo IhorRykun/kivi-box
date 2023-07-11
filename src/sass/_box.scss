@@ -55,6 +55,9 @@
 
 .box__container__img {
   @media screen and (max-width: 666px) {
-    display: inline-block;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
   }
 }
