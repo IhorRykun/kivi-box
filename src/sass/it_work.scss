@@ -83,9 +83,26 @@
   }
 }
 
+.it__work__text__about--none {
+  @media screen and (max-width: 666px) {
+    color: #696969;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 30px;
+  }
+}
+
 .it__work__button {
   @media screen and (max-width: 666px) {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
     height: 60px;
     border-radius: 50px;
     background: #01a3a4;
