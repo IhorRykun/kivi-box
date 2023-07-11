@@ -8,6 +8,13 @@
   background: #f0f8f6;
 }
 
+.box__img {
+  @media screen and (max-width: 666px) {
+    text-align: center;
+    display: inline-block;
+  }
+}
+
 .box__title {
   @media screen and (max-width: 666px) {
     color: #000;

@@ -20,6 +20,11 @@
   }
 }
 
+.mission__img__wave {
+  @media screen and (max-width: 666px) {
+    display: inline-block;
+  }
+}
 .mission__text {
   @media screen and (max-width: 666px) {
     color: #000;
@@ -49,5 +54,6 @@
 .mission__img {
   @media screen and (max-width: 666px) {
     text-align: center;
+    display: inline-block;
   }
 }

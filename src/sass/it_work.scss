@@ -29,6 +29,13 @@
   }
 }
 
+.it_work__item {
+  @media screen and (max-width: 666px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .it__work__text {
   @media screen and (max-width: 666px) {
     color: #000;
@@ -60,8 +67,8 @@
 .it__work__text__about::after {
   @media screen and (max-width: 666px) {
     position: absolute;
-    bottom: -50px;
-    left: 0;
+    bottom: -34px;
+    left: 20px;
     content: '';
     display: block;
     width: 90px;
@@ -73,8 +80,8 @@
 .it__work__text__about::before {
   @media screen and (max-width: 666px) {
     position: absolute;
-    bottom: -50px;
-    right: 0;
+    bottom: -34px;
+    right: 20px;
     content: '';
     display: block;
     width: 90px;
