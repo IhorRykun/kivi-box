@@ -4,6 +4,67 @@
     padding-bottom: 30px;
   }
 }
+
+.about__img__wave {
+  @media screen and (max-width: 666px) {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.about__text-one {
+  @media screen and (max-width: 666px) {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #01a3a4;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+}
+
+.about__text--h2 {
+  @media screen and (max-width: 666px) {
+    color: #000;
+    text-align: center;
+    font-family: Advent Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.about__text--h3 {
+  @media screen and (max-width: 666px) {
+    color: #212121;
+    font-family: Bebas Neue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+}
+.about__text--h3-span {
+  @media screen and (max-width: 666px) {
+    color: #01a3a4;
+    font-family: Bebas Neue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+}
 .about__input {
   @media screen and (max-width: 666px) {
     width: 288px;
@@ -18,6 +79,7 @@
     border: 2px solid #01a3a4;
     outline: none;
     margin-top: 10px;
+    text-align: center;
   }
 }
 .about___button {
@@ -37,5 +99,18 @@
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+}
+
+.about__text--button {
+  @media screen and (max-width: 666px) {
+    color: #c4c4c4;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-align: center;
   }
 }
