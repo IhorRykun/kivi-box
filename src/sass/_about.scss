@@ -9,8 +9,8 @@
 .about__img__wave {
   @media screen and (max-width: 666px) {
     display: inline-block;
-    text-align: center;
     margin-bottom: 10px;
+    text-align: center;
   }
 }
 
@@ -39,6 +39,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+}
+
+.about__img__box {
+  @media screen and (max-width: 666px) {
+    margin-top: 25px;
   }
 }
 
