@@ -10,6 +10,8 @@
   @media screen and (max-width: 666px) {
     display: flex;
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -23,6 +25,7 @@
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    text-align: center;
   }
 }
 .customers__title__cl {
@@ -34,6 +37,7 @@
     line-height: normal;
     margin-top: 10px;
     margin-bottom: 34px;
+    text-align: center;
   }
 }
 .customers__avatars {
@@ -63,11 +67,47 @@
     line-height: 150%;
     height: 218px;
     overflow-y: scroll;
+    margin-top: 15px;
   }
 }
 .customers__about--span {
   @media screen and (max-width: 666px) {
     margin-top: 7px;
-    color: red;
+  }
+}
+
+.customers__list__decor {
+  @media screen and (max-width: 666px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.customers__item__decor {
+  @media screen and (max-width: 666px) {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    background-color: #f0f8f6;
+    margin-top: 34px;
+  }
+}
+
+.customers__item__decor--span {
+  @media screen and (max-width: 666px) {
+    width: 22px;
+    height: 22px;
+    display: block;
+    border-radius: 50%;
+    background-color: #74e7d0;
+    margin: 4px 4px;
+  }
+}
+
+.customers__item__decor--svg {
+  @media screen and (max-width: 666px) {
+    fill: #fff;
+    margin: 6px 6px;
   }
 }
