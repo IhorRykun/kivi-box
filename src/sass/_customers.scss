@@ -9,6 +9,7 @@
 .customers__container--flex {
   @media screen and (max-width: 666px) {
     display: flex;
+    margin-bottom: 10px;
   }
 }
 
@@ -35,7 +36,7 @@
     margin-bottom: 34px;
   }
 }
-.cutomers__avatars {
+.customers__avatars {
   @media screen and (max-width: 666px) {
     border-radius: 50%;
   }
@@ -48,5 +49,25 @@
 
 .container__customers__stars--img {
   @media screen and (max-width: 666px) {
+    margin-top: 7px;
+  }
+}
+
+.customers__about {
+  @media screen and (max-width: 666px) {
+    color: #696969;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    height: 218px;
+    overflow-y: scroll;
+  }
+}
+.customers__about--span {
+  @media screen and (max-width: 666px) {
+    margin-top: 7px;
+    color: red;
   }
 }
