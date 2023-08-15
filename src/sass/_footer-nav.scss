@@ -32,3 +32,41 @@
 .footer__item__link:last-child {
   margin-bottom: 0;
 }
+.social__item {
+  @media screen and (max-width: 666px) {
+    display: block;
+    border: 1px solid #01a3a4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    margin-left: 20px;
+  }
+}
+
+.social__item:first-child {
+  @media screen and (max-width: 666px) {
+    margin-left: 0;
+  }
+}
+.social__list {
+  @media screen and (max-width: 666px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.social__link {
+  @media screen and (max-width: 666px) {
+  }
+  fill: #01a3a4;
+}
+
+.footer__decor--line {
+  @media screen and (max-width: 666px) {
+    width: 288px;
+    height: 1px;
+    background: #f0f8f6;
+    display: block;
+  }
+}
