@@ -47,7 +47,18 @@ img {
   height: auto;
 }
 .container {
-  @media screen and (max-width: 666px) {
-  }
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
+  width: 100vw;
+  @media screen and (max-width: 666px) {
+    max-width: 320px;
+  }
+
+  @media screen and (max-width: 1023px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 1200px;
+  }
 }
