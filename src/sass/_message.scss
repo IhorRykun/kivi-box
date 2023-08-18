@@ -39,13 +39,12 @@
   @media screen and (max-width: 666px) {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
     justify-content: center;
   }
 }
 .message__item {
   @media screen and (max-width: 666px) {
-   
+    width: calc((100% - 2px) / 2);
   }
 }
 
