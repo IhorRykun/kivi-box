@@ -53,5 +53,16 @@
 .main_list {
   @media screen and (max-width: 666px) {
     display: flex;
+    gap: 8px;
+  }
+}
+
+.main__item {
+  @media screen and (max-width: 666px) {
+    width: 66px;
+    height: 66px;
+    display: block;
+    background-color: rgb(252, 242, 189, 0.2);
+    border-radius: 50%;
   }
 }
