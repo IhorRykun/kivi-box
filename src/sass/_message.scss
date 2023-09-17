@@ -40,11 +40,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 4px;
   }
 }
 .message__item {
   @media screen and (max-width: 666px) {
-    width: calc((100% - 2px) / 2);
+    width: calc((100% - 4px) / 2);
   }
 }
 

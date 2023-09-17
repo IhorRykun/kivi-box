@@ -22,7 +22,9 @@
 
 .mission__img__wave {
   @media screen and (max-width: 666px) {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
 .mission__text {
