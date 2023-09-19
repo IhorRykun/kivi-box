@@ -3,3 +3,77 @@
     padding: 0.21rem 0.66rem;
   }
 }
+
+.wrapper {
+  @media screen and (max-width: 666px) {
+    display: flex;
+    align-items: center;
+  }
+}
+.burger__menu {
+  @media screen and (max-width: 666px) {
+    position: relative;
+    width: 17px;
+    height: 18px;
+    margin-left: auto;
+  }
+}
+
+.burger__item {
+  @media screen and (max-width: 666px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 17px;
+    height: 2px;
+    background-color: #34495e;
+    transition: 0.5s;
+  }
+}
+
+.burger__item::after,
+.burger__item::before {
+  @media screen and (max-width: 666px) {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    background-color: #34495e;
+    transition: 0.5s;
+  }
+}
+
+.burger__item::before {
+  @media screen and (max-width: 666px) {
+    top: -4px;
+  }
+}
+.burger__item::after {
+  @media screen and (max-width: 666px) {
+    top: 4px;
+  }
+}
+
+.burger__menu:hover .burger__item {
+  @media screen and (max-width: 666px) {
+    background-color: transparent;
+  }
+}
+
+.burger__menu:hover .burger__item::before {
+  @media screen and (max-width: 666px) {
+    transform: rotate(45deg);
+    top: 0;
+  }
+}
+.burger__menu:hover .burger__item::after {
+  @media screen and (max-width: 666px) {
+    transform: rotate(135deg);
+    top: 0;
+  }
+}
+
+.header__menu {
+  display: none;
+}
