@@ -79,15 +79,21 @@
     background-color: #f0f8f6;
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: auto;
     // display: none;
     top: 59px;
     left: 0;
     z-index: 200;
-    padding: 54px 100px;
+    padding: 54px 0;
+    margin: 0 auto;
   }
 }
 
+.nav__list {
+  @media screen and (max-width: 666px) {
+    text-align: center;
+  }
+}
 .nav__item {
   @media screen and (max-width: 666px) {
     margin-bottom: 55px;
@@ -97,5 +103,18 @@
 .nav__item:last-child {
   @media screen and (max-width: 666px) {
     margin-bottom: 0;
+  }
+}
+
+.header__link {
+  @media screen and (max-width: 666px) {
+    color: #212121;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
   }
 }
