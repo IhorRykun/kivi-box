@@ -55,19 +55,19 @@
   }
 }
 
-.burger__menu:hover .burger__item {
+.burger__menu:active .burger__item {
   @media screen and (max-width: 666px) {
     background-color: transparent;
   }
 }
 
-.burger__menu:hover .burger__item::before {
+.burger__menu:active .burger__item::before {
   @media screen and (max-width: 666px) {
     transform: rotate(45deg);
     top: 0;
   }
 }
-.burger__menu:hover .burger__item::after {
+.burger__menu:active .burger__item::after {
   @media screen and (max-width: 666px) {
     transform: rotate(135deg);
     top: 0;
