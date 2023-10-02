@@ -2,12 +2,36 @@
   @media screen and (max-width: 666px) {
     padding: 0.21rem 0.66rem;
   }
+  @media screen and (min-width: 1024px) {
+    padding: 20px 0;
+  }
 }
 
 .wrapper {
   @media screen and (max-width: 666px) {
     display: flex;
     align-items: center;
+  }
+  @media screen and (min-width: 667px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+}
+
+.header__link_list {
+  @media screen and (max-width: 666px) {
+    display: none;
+  }
+  @media screen and (min-width: 667px) {
+    display: flex;
+  }
+}
+
+.header__link_item {
+  @media screen and (min-width: 667px) {
+    gap: 100px;
   }
 }
 .burger__menu {
@@ -54,7 +78,6 @@
     top: 4px;
   }
 }
-gi
 .burger__menu:active .burger__item {
   @media screen and (max-width: 666px) {
     background-color: transparent;
