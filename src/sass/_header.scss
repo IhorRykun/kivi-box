@@ -1,6 +1,8 @@
 .header {
   @media screen and (max-width: 666px) {
     padding: 0.21rem 0.66rem;
+    position: relative;
+    z-index: 2000;
   }
   @media screen and (min-width: 1024px) {
     padding: 20px 0;
@@ -11,12 +13,13 @@
   @media screen and (max-width: 666px) {
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 2000;
   }
   @media screen and (min-width: 667px) {
     display: flex;
     align-items: center;
     justify-content: center;
- 
   }
 }
 
@@ -102,9 +105,9 @@
     background-color: #f0f8f6;
     position: absolute;
     width: 100vw;
-    height: auto;
-    // display: none;
-    top: 59px;
+    height: 100%;
+    position: fixed;
+    top: 0;
     left: 0;
     z-index: 200;
     padding: 54px 0;
