@@ -5,6 +5,9 @@
     background: #f0f8f6;
     text-align: center;
   }
+  @media screen and (min-width: 667px) {
+    padding: 100px 0;
+  }
   background: #f0f8f6;
 }
 
@@ -14,6 +17,8 @@
     display: inline-block;
   }
 }
+
+
 
 .box__title {
   @media screen and (max-width: 666px) {
