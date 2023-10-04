@@ -44,6 +44,15 @@
     font-weight: 400;
     line-height: normal;
   }
+  @media (min-width: 667px) {
+    color: #fff;
+    text-align: center;
+    font-family: Galada;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 .main__button {
   @media screen and (max-width: 666px) {
@@ -57,6 +66,23 @@
     text-align: center;
     font-family: Bebas Neue;
     font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  @media (min-width: 667px) {
+    width: 280px;
+    height: 70px;
+    border-radius: 50px;
+    background: #01a3a4;
+    margin: 0 auto;
+    display: block;
+
+    color: #fff;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
