@@ -24,11 +24,29 @@
   @media screen and (min-width: 667px) {
     margin-left: 49px;
   }
+  position: relative;
 }
 .box__img {
   @media screen and (max-width: 666px) {
     text-align: center;
     display: inline-block;
+  }
+  @media screen and (min-width: 667px) {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+  }
+}
+
+.box__img_1 {
+  @media screen and (min-width: 667px) {
+    margin-right: 10px;
+  }
+}
+
+.box__img_2 {
+  @media screen and (min-width: 667px) {
+    margin-right: 10px;
   }
 }
 
@@ -42,6 +60,16 @@
     line-height: normal;
     margin: 20px 0;
   }
+  @media screen and (min-width: 667px) {
+    color: #000;
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 116px;
+  }
+  position: relative;
 }
 
 .box__text {
@@ -57,10 +85,37 @@
   }
   @media screen and (min-width: 667px) {
     width: 520px;
+    margin: 30px 0;
+    color: #696969;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
-
 .box__button {
+  @media screen and (max-width: 666px) {
+    display: none;
+  }
+  @media screen and (min-width: 667px) {
+    width: 280px;
+    height: 70px;
+    background: #01a3a4;
+    border-radius: 50px;
+
+    color: #fff;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}
+.box__button--mob {
   @media screen and (max-width: 666px) {
     max-width: 288px;
     width: 100%;
@@ -80,19 +135,7 @@
   }
 
   @media screen and (min-width: 667px) {
-    width: 280px;
-    height: 70px;
-    background: #01a3a4;
-    border-radius: 50px;
-
-    color: #fff;
-    text-align: center;
-    font-family: Bebas Neue;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+    display: none;
   }
 }
 
