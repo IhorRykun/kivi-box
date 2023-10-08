@@ -123,26 +123,30 @@
 
 .box__img_1 {
   @media screen and (max-width: 666px) {
-    width: 184px;
+    max-width: 184px;
+    width: 100%;
   }
   @media screen and (min-width: 667px) {
     width: 150px;
     margin-right: 12px;
   }
   @media screen and (min-width: 1024px) {
-    width: 150px;
+    width: 3540px;
     margin-right: 12px;
   }
 }
 
 .box__img_2 {
   @media screen and (max-width: 666px) {
+    width: 100%;
     width: 184px;
   }
-  @media screen and (max-width: 667px) {
+
+  @media screen and (min-width: 667px) {
     width: 150px;
   }
   @media screen and (min-width: 1024px) {
+    width: 354px;
     margin-right: 10px;
   }
 }
