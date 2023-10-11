@@ -102,30 +102,31 @@
   }
 }
 
-.main__item {
+.main__item__mobile {
   @media screen and (max-width: 666px) {
     width: 66px;
-    height: 66px;
-    display: block;
+
     background-color: rgb(252, 242, 189, 0.2);
     border-radius: 50%;
   }
   @media screen and (min-width: 667px) {
-    width: auto;
-    height: 341px;
+    width: 341px;
     display: block;
     background-color: rgb(252, 242, 189, 0.2);
     border-radius: 50%;
   }
 }
 
+
+
 .main__item__img {
   @media screen and (max-width: 666px) {
     width: 65px;
+    height: auto;
+    padding-top: 4px;
   }
   @media screen and (min-width: 667px) {
-    width: 341px;
-    margin-top: 34px;
+    width: 595px;
     display: block;
     border-radius: 50%;
   }
