@@ -4,6 +4,10 @@ body {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   list-style: none;
   text-decoration: none;
