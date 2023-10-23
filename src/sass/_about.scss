@@ -4,6 +4,10 @@
     padding-bottom: 30px;
     background: #f0f8f6;
   }
+  @media screen and (min-width: 667px) {
+    padding: 100px 0 44px 0;
+    background-color: #f0f8f6;
+  }
 }
 
 .about__text-one {
@@ -20,6 +24,17 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
   }
+  @media screen and (min-width: 667px) {
+    color: #01a3a4;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+  }
 }
 
 .about__text--h2 {
@@ -28,6 +43,13 @@
     text-align: center;
     font-family: Advent Pro;
     font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @media screen and (min-width: 667px) {
+    font-family: Bebas Neue;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -51,6 +73,16 @@
     letter-spacing: 1.6px;
     text-transform: uppercase;
   }
+  @media screen and (min-width: 667px) {
+    color: #212121;
+    font-family: Bebas Neue;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
 }
 .about__text--h3-span {
   @media screen and (max-width: 666px) {
@@ -61,6 +93,16 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+  @media screen and (min-width: 667px) {
+    color: #01a3a4;
+    font-family: Bebas Neue;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
     text-transform: uppercase;
   }
 }
@@ -80,6 +122,22 @@
     margin-top: 10px;
     text-align: center;
   }
+  @media screen and (min-width: 667px) {
+    width: 595px;
+    height: 100px;
+
+    border-radius: 0px 50px 50px 0px;
+    background-color: #fff;
+
+    color: #c4c4c4;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    outline: none;
+  }
 }
 .about___button {
   @media screen and (max-width: 666px) {
@@ -98,6 +156,20 @@
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+  @media screen and (min-width: 667px) {
+    width: 280px;
+    height: 70px;
+    background-color: #01a3a4;
+    color: #fff;
+
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
   }
 }
 

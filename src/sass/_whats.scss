@@ -152,29 +152,30 @@
   @media screen and (min-width: 667px) {
     width: 307px;
     color: #696969;
-    min-height: 6px;
-
+    min-height: 37px;
+    display: block;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-
     margin-left: 40px;
-    margin-top: 30px;
-    margin-bottom: 37px;
   }
 }
 .whats__list__title--leptop {
   @media screen and (min-width: 667px) {
-    color: #000;
     font-family: Bebas Neue;
+    color: #000;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.2px;
-    margin-top: 42px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
   }
 }
 
@@ -222,10 +223,12 @@
     text-transform: uppercase;
 
     margin-left: 200px;
+    margin-top: 37px;
   }
 }
 .container__item--img--leptop--whats {
   @media screen and (min-width: 667px) {
-    padding: 0 20px;
+    padding: 47px 20px 0 20px;
+    min-height: 247px;
   }
 }
