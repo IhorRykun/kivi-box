@@ -175,7 +175,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.2px;
+    height: 48px;
+    vertical-align: center;
   }
 }
 
@@ -229,6 +230,6 @@
 .container__item--img--leptop--whats {
   @media screen and (min-width: 667px) {
     padding: 47px 20px 0 20px;
-    min-height: 247px;
+    height: 247px;
   }
 }
