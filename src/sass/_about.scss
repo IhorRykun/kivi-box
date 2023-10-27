@@ -10,6 +10,16 @@
   }
 }
 
+.about__img__wave {
+  @media screen and (max-width: 666px) {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 667px) {
+    width: 48px;
+    height: 5px;
+  }
+}
 .about__container--flex {
   @media screen and (max-width: 666px) {
     display: block;
@@ -37,7 +47,7 @@
   }
   @media screen and (min-width: 667px) {
     color: #01a3a4;
-    text-align: center;
+    margin-left: 68px;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -69,6 +79,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 62px;
   }
 }
 
@@ -108,36 +119,6 @@
     text-transform: uppercase;
   }
 
-  .about__text--h3--leptop {
-    @media screen and (max-width: 666px) {
-      display: none;
-    }
-    @media screen and (min-width: 667px) {
-      color: #212121;
-
-      font-family: Bebas Neue;
-      font-size: 96px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: 4.8px;
-      text-transform: uppercase;
-    }
-  }
-
-  .about__text--h3-span--leptop {
-    @media screen and (min-width: 667px) {
-      color: #01a3a4;
-      font-family: Bebas Neue;
-      font-size: 96px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: 4.8px;
-      text-transform: uppercase;
-    }
-  }
-
   @media screen and (min-width: 667px) {
     color: #01a3a4;
     font-family: Bebas Neue;
@@ -149,6 +130,38 @@
     text-transform: uppercase;
   }
 }
+
+.about__text--h3--leptop {
+  @media screen and (max-width: 666px) {
+    display: none;
+  }
+  @media screen and (min-width: 667px) {
+    color: #212121;
+
+    font-family: Bebas Neue;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    width: 1220px;
+  }
+}
+
+.about__text--h3-span--leptop {
+  @media screen and (min-width: 667px) {
+    color: #01a3a4;
+    font-family: Bebas Neue;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+}
+
 .about__input {
   @media screen and (max-width: 666px) {
     width: 288px;
@@ -164,7 +177,9 @@
     outline: none;
     margin-top: 10px;
     text-align: center;
+    z-index: 2;
   }
+
   @media screen and (min-width: 667px) {
     width: 595px;
     height: 100px;
@@ -184,6 +199,7 @@
     padding-left: 30px;
   }
 }
+
 .about___button {
   @media screen and (max-width: 666px) {
     max-width: 12rem;
@@ -202,6 +218,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
   @media screen and (min-width: 667px) {
     width: 280px;
     height: 70px;
@@ -252,7 +269,8 @@
   }
   @media screen and (min-width: 667px) {
     position: relative;
-    top: 0;
-    left: 0;
+    top: -200px;
+    left: -150px;
+    z-index: 1;
   }
 }
