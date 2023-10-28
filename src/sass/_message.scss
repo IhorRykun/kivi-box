@@ -124,6 +124,21 @@
   }
 }
 
+.list__img__lep--img .message__item__img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.message__img__lep--center:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.message__list__lep .message__item__img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 .message__item__list-2 {
   @media screen and (min-width: 667px) {
     margin-bottom: 3px;
