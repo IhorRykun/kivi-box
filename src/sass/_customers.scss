@@ -17,7 +17,7 @@
     justify-content: center;
   }
   @media screen and (min-width: 667px) {
-   display: flex;
+    display: flex;
   }
 }
 
@@ -89,11 +89,21 @@
   @media screen and (max-width: 666px) {
     margin-left: 10px;
   }
+  @media screen and (min-width: 667px) {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 96px;
+    width: 565px;
+    justify-content: space-between;
+  }
 }
 
 .container__customers__stars--img {
   @media screen and (max-width: 666px) {
     margin-top: 7px;
+  }
+  @media screen and (min-width: 667px) {
+    margin: 0;
   }
 }
 
@@ -109,7 +119,11 @@
     overflow-y: scroll;
     margin-top: 15px;
   }
+  @media screen and (min-width: 667px) {
+    display: none;
+  }
 }
+
 .customers__about--span {
   @media screen and (max-width: 666px) {
     margin-top: 7px;
