@@ -191,7 +191,8 @@
   }
   @media screen and (min-width: 667px) {
     display: block;
-    margin-left: 400px;
+    margin-left: 546px;
+    margin-top: 40px;
     display: flex;
   }
 }
@@ -204,6 +205,16 @@
     border-radius: 50%;
     background-color: #f0f8f6;
     margin-top: 34px;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 667px) {
+    width: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 50%;
+    background-color: #f0f8f6;
+    margin-top: 34px;
+    cursor: pointer;
   }
 }
 
@@ -216,11 +227,25 @@
     background-color: #74e7d0;
     margin: 4px 4px;
   }
+  @media screen and (min-width: 667px) {
+    width: 35px;
+    height: 35px;
+    display: block;
+    border-radius: 50%;
+    background-color: #74e7d0;
+    margin: 4px 4px;
+  }
 }
 
 .customers__item__decor--svg {
   @media screen and (max-width: 666px) {
     fill: #fff;
     margin: 6px 6px;
+  }
+  @media screen and (min-width: 667px) {
+    fill: #fff;
+    margin: 10px 10px;
+    width: 16px;
+    height: 16px;
   }
 }

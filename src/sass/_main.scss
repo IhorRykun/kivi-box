@@ -9,11 +9,11 @@
   }
   background: var(--2, linear-gradient(159deg, #feca57 0%, #e3aa2d 100%));
 }
-.container-100wv {
-  @media screen and (min-width: 667px) {
-    width: 100vw;
-  }
-}
+// .container-100wv {
+//   @media screen and (min-width: 667px) {
+//     width: 100vw;
+//   }
+// }
 
 .main__text--h2 {
   @media screen and (max-width: 666px) {
