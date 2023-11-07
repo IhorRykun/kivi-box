@@ -17,11 +17,7 @@
     margin-bottom: 10px;
   }
   @media screen and (min-width: 667px) {
-    width: 48px;
-    height: 5px;
-    position: absolute;
-    top: 144px;
-    left: 696px;
+    display: none;
   }
 }
 
@@ -90,8 +86,24 @@
     line-height: normal;
     margin-left: 62px;
   }
+  position: relative;
 }
 
+.about__text--h2::after {
+  @media screen and (max-width: 666px) {
+    display: none;
+  }
+  @media screen and (min-width: 667px) {
+    content: '';
+    display: block;
+    background: url(../../src/images/main/it_work/line_2.png);
+    width: 52px;
+    height: 8px;
+    position: absolute;
+    top: 25px;
+    left: -69px;
+  }
+}
 .about__img__box {
   @media screen and (max-width: 666px) {
     margin-top: 25px;

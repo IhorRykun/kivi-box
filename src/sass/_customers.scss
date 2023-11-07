@@ -7,6 +7,7 @@
   @media screen and (min-width: 667px) {
     padding: 100px 0 118px 0;
   }
+  position: relative;
 }
 
 .customers__container--flex {
@@ -23,6 +24,9 @@
 }
 
 .wraper__img--avatar {
+  @media screen and (max-width: 666px) {
+    width: 62px;
+  }
   @media screen and (min-width: 667px) {
     width: 668px;
     margin-left: -216px;
@@ -77,6 +81,7 @@
 .customers__avatars {
   @media screen and (max-width: 666px) {
     border-radius: 50%;
+    width: 62px;
   }
   @media screen and (min-width: 667px) {
     display: none;
@@ -116,6 +121,7 @@
   @media screen and (min-width: 667px) {
     margin-right: 100px;
   }
+  position: relative;
 }
 
 .customer__text__lorem {
@@ -145,6 +151,7 @@
 
 .start__text {
   @media screen and (max-width: 666px) {
+    position: absolute;
     top: 32px;
     right: -26px;
   }
@@ -247,5 +254,17 @@
     margin: 10px 10px;
     width: 16px;
     height: 16px;
+  }
+}
+
+.customer__img__wave {
+  @media screen and (max-width: 666px) {
+    margin-top: 25px;
+  }
+  @media screen and (min-width: 667px) {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 60px;
   }
 }
