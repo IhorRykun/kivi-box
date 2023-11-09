@@ -27,6 +27,7 @@
     letter-spacing: 0.067rem;
     text-transform: uppercase;
   }
+
   @media (min-width: 667px) {
     color: #212121;
     text-align: center;
@@ -40,6 +41,7 @@
     text-transform: uppercase;
   }
 }
+
 .main__text--h3 {
   @media screen and (max-width: 666px) {
     color: #fff;
@@ -60,6 +62,7 @@
     line-height: normal;
   }
 }
+
 .main__button {
   @media screen and (max-width: 666px) {
     max-width: 12rem;
@@ -124,12 +127,12 @@
 
 .main__item__img {
   @media screen and (max-width: 666px) {
-    width: 65px;
+    width: 74px;
     height: auto;
     padding-top: 4px;
   }
   @media screen and (min-width: 667px) {
-    width: 595px;
+    width: 341px;
     display: block;
     border-radius: 50%;
   }
@@ -142,7 +145,7 @@
     justify-content: center;
   }
   @media screen and (min-width: 667px) {
-    display: none;
+    // display: none;
   }
 }
 

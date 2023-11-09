@@ -116,24 +116,6 @@
     top: 4px;
   }
 }
-.burger__menu:active .burger__item {
-  @media screen and (max-width: 666px) {
-    background-color: transparent;
-  }
-}
-
-.burger__menu:active .burger__item::before {
-  @media screen and (max-width: 666px) {
-    transform: rotate(45deg);
-    top: 0;
-  }
-}
-.burger__menu:active .burger__item::after {
-  @media screen and (max-width: 666px) {
-    transform: rotate(135deg);
-    top: 0;
-  }
-}
 
 .header__menu {
   @media screen and (max-width: 666px) {
