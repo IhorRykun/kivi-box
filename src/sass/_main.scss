@@ -15,6 +15,23 @@
   //   }
   // }
 }
+
+.container__main_wraper {
+  @media screen and (max-width: 666px) {
+    max-width: 302px;
+  }
+  @media (min-width: 667px) and (max-width: 1024px) {
+    min-width: 600px;
+    margin: 0 auto;
+  }
+  margin: 0 auto;
+}
+
+.heder__logo--mobile {
+  @media (min-width: 667px) {
+    display: none;
+  }
+}
 .main__text--h2 {
   @media screen and (max-width: 666px) {
     color: #212121;

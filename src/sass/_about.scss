@@ -24,6 +24,8 @@
 .about__container--flex {
   @media screen and (max-width: 666px) {
     display: block;
+    max-width: 320px;
+    width: 100%;
   }
   @media screen and (min-width: 667px) {
     display: flex;
@@ -216,7 +218,8 @@
 
 .about__input {
   @media screen and (max-width: 666px) {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
     height: 60px;
     background-color: white;
     color: #c4c4c4;
