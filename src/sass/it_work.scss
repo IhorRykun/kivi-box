@@ -196,5 +196,13 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    transition: background-color 0.3 ease 0s;
+    overflow: hidden;
+    position: relative;
+  }
+  &:hover,
+  &:focus {
+    color: white;
+    transform: scale(0.9, 1.2);
   }
 }
