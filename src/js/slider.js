@@ -1,4 +1,10 @@
-const container = document.getElementById('myCarousel');
-const options = { infinite: false };
+import $ from 'jquery';
+import 'slick-carousel';
 
-new Carousel(container, options);
+$('.carousel').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+});
