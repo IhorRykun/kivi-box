@@ -1,0 +1,40 @@
+.wraper {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  &__modal {
+    @media screen and (max-width: 666px) {
+    }
+
+    @media screen and (min-width: 667px) {
+      padding: 0px 63px 0px 18px;
+      width: 804px;
+      background-color: #fff;
+      display: flex;
+    }
+  }
+}
+
+.modal__text--right {
+  @media screen and (max-width: 666px) {
+  }
+
+  @media screen and (min-width: 667px) {
+    padding: 100px 63px 100px 80px;
+  }
+}
+
+.modal__text--right-span {
+  @media screen and (max-width: 666px) {
+  }
+
+  @media screen and (min-width: 667px) {
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

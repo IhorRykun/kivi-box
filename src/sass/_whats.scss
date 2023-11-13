@@ -45,6 +45,9 @@
   }
 }
 .whats__container--mobile {
+  @media screen and (max-width: 666px) {
+    margin: 0 auto;
+  }
   @media screen and (min-width: 667px) {
     display: none;
   }

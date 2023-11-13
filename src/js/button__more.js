@@ -7,5 +7,3 @@ function btnMore() {
   const targetElement = textSpan.classList.toggle('veritatis-nan');
   return targetElement;
 }
-
-

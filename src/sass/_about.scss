@@ -26,6 +26,7 @@
     display: block;
     max-width: 320px;
     width: 100%;
+    margin: 0 auto;
   }
   @media screen and (min-width: 667px) {
     display: flex;
@@ -78,6 +79,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 320px;
   }
 
   @media screen and (min-width: 667px) {
@@ -296,7 +298,7 @@
   &:hover,
   &:focus {
     transform: scale(0.8);
-    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 }
 
