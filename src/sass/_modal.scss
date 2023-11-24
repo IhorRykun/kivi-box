@@ -1,19 +1,41 @@
 .wraper {
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 100vw;
-  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
+  left: 0;
+  z-index: 1000;
   &__modal {
     @media screen and (max-width: 666px) {
+      width: 288px;
+      display: block;
+      background: #fff;
+      border-radius: 20px;
+  
     }
-
     @media screen and (min-width: 667px) {
-      padding: 0px 63px 0px 18px;
       width: 804px;
       background-color: #fff;
       display: flex;
+      border-radius: 20px;
     }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.wraper__modal__container__imgages {
+  @media screen and (max-width: 666px) {
+    width: 100%;
+    height: 150px;
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  @media screen and (min-width: 667px) {
+    border-radius: 20px 0px 0px 20px;
   }
 }
 
@@ -22,7 +44,21 @@
   }
 
   @media screen and (min-width: 667px) {
-    padding: 100px 63px 100px 80px;
+    padding: 100px 0 0 62px;
+  }
+}
+.modal__text--right__title {
+  @media screen and (max-width: 666px) {
+  }
+
+  @media screen and (min-width: 667px) {
+    font-family: Bebas Neue;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #212121;
+    width: 430px;
   }
 }
 
@@ -32,9 +68,73 @@
 
   @media screen and (min-width: 667px) {
     font-family: Bebas Neue;
-    font-size: 48px;
+    font-size: 46px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    color: #01a3a4;
+  }
+}
+
+.modal__text--right__title::after {
+  @media screen and (max-width: 666px) {
+  }
+
+  @media screen and (min-width: 667px) {
+    content: ' ';
+    display: block;
+    background: url(../images/main/it_work/line_2.png);
+    width: 51px;
+    height: 8px;
+    margin: 20px auto;
+  }
+}
+
+.modal__about__text {
+  @media screen and (max-width: 666px) {
+  }
+
+  @media screen and (min-width: 667px) {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    width: 406px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.modal__button {
+  @media screen and (max-width: 666px) {
+  }
+
+  @media screen and (min-width: 667px) {
+    width: 280px;
+    height: 70px;
+    border-radius: 50px;
+    background: #01a3a4;
+
+    color: #fff;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: background-color 0.3 ease 0s;
+    overflow: hidden;
+    position: relative;
+  }
+  &:hover {
+    color: white;
+    transform: scale(0.9, 1.2);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

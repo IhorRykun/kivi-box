@@ -62,15 +62,15 @@ img {
   padding-right: 20px;
   margin: 0 auto;
   width: 100vw;
-  @media screen and (max-width: 666px) {
-    max-width: 320px;
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
   }
 
-  @media screen and (min-width: 667px) {
-    max-width: 768px;
+  @media screen and (min-width: 768px) {
+    width: 738px;
   }
-  @media screen and (min-width: 1024px) {
-    max-width: 1200px;
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
   }
 }
 .veritatis-nan {
