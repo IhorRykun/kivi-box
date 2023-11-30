@@ -1,10 +1,10 @@
 // !  подія по кліку
-document.addEventListener("click", function (e) {
+document.addEventListener('click', function (e) {
   const targetElement = e.target;
-  if (targetElement.closest("[data-ripple")) {
+  if (targetElement.closest('[data-ripple')) {
     // !  Константи
-    const button = targetElement.closest("[data-ripple");
-    const ripple = document.createElement("span");
+    const button = targetElement.closest('[data-ripple');
+    const ripple = document.createElement('span');
     const diameter = Math.max(button.clientWidth, button.clientHeight);
     const radius = diameter / 2;
 
@@ -16,7 +16,7 @@ document.addEventListener("click", function (e) {
     ripple.style.top = `${
       e.pageY - (button.getBoundingClientRect().top + scrollY) - radius
     }px`;
-    ripple.classList.add("ripple");
+    ripple.classList.add('ripple');
 
     // !  Добавлення елементу
     button.appendChild(ripple);
@@ -33,21 +33,20 @@ document.addEventListener("click", function (e) {
 
     // ! Функція часу дії
     function getAnimationDuration() {
-      console.log("hell");
       const aDuration = window.getComputedStyle(ripple).animationDuration;
-      return aDuration.includes("ms")
-        ? aDuration.replace("ms", "")
-        : aDuration.replace("s", "") * 1000;
+      return aDuration.includes('ms')
+        ? aDuration.replace('ms', '')
+        : aDuration.replace('s', '') * 1000;
     }
   }
 });
 // !  подія по кліку
-document.addEventListener("click", function (e) {
+document.addEventListener('click', function (e) {
   const targetElement = e.target;
-  if (targetElement.closest("[data-ripple")) {
+  if (targetElement.closest('[data-ripple')) {
     // !  Константи
-    const button = targetElement.closest("[data-ripple");
-    const ripple = document.createElement("span");
+    const button = targetElement.closest('[data-ripple');
+    const ripple = document.createElement('span');
     const diameter = Math.max(button.clientWidth, button.clientHeight);
     const radius = diameter / 2;
 
@@ -59,7 +58,7 @@ document.addEventListener("click", function (e) {
     ripple.style.top = `${
       e.pageY - (button.getBoundingClientRect().top + scrollY) - radius
     }px`;
-    ripple.classList.add("ripple");
+    ripple.classList.add('ripple');
 
     // !  Добавлення елементу
     button.appendChild(ripple);
@@ -76,11 +75,10 @@ document.addEventListener("click", function (e) {
 
     // ! Функція часу дії
     function getAnimationDuration() {
-      console.log("hell");
       const aDuration = window.getComputedStyle(ripple).animationDuration;
-      return aDuration.includes("ms")
-        ? aDuration.replace("ms", "")
-        : aDuration.replace("s", "") * 1000;
+      return aDuration.includes('ms')
+        ? aDuration.replace('ms', '')
+        : aDuration.replace('s', '') * 1000;
     }
   }
 });
