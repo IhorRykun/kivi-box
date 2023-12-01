@@ -1,16 +1,16 @@
 .message {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding-top: 50px;
     padding-bottom: 14px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0;
   }
   background-color: #f0f8f6;
 }
 
 .message__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #01a3a4;
     text-align: center;
     font-family: Roboto;
@@ -21,7 +21,7 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #01a3a4;
     font-family: Roboto;
     font-size: 14px;
@@ -35,7 +35,7 @@
   }
 }
 .message__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     text-align: center;
     font-family: Advent Pro;
@@ -47,7 +47,7 @@
     margin-top: 10px;
     margin-bottom: 15px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #000;
     font-family: Bebas Neue;
     font-size: 48px;
@@ -55,27 +55,29 @@
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 }
 
 .message__list {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .message__list__lep {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     gap: 3px;
@@ -88,39 +90,40 @@
   width: 1200px;
 }
 .message__img__lep--center {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 447px;
+    height: 471px;
   }
 }
 
 .list__img__lep--img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
 
 .message__item {
-  @media screen and (max-width: 666px) {
-    width: calc((100% - 4px) / 2);
+  @media screen and (max-width: 767px) {
+    width: 253px;
   }
 }
 
 .list__img__lep--img {
-  @media screen and (min-width: 667px) {
-    margin-left: 3px;
+  @media screen and (min-width: 768px) {
+    margin-left: 12px;
   }
 }
 
 .message__item__img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 150px;
     width: 100%;
   }
-  @media screen and (min-width: 667px) {
-    width: 238px;
+  @media screen and (min-width: 768px) {
+    width: 234px;
   }
 }
 
@@ -152,17 +155,19 @@
 }
 
 .message__item__list-2 {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 3px;
   }
 }
 .message__item__list-2:last-child {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }
 }
 
 .pop__link {
-  width: 1200px;
-  height: 300px;
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 244px;
+  }
 }

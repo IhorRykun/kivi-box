@@ -1,18 +1,18 @@
 .box {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding: 50px 0;
     padding-bottom: 26px;
     background: #f0f8f6;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0;
   }
   background: #f0f8f6;
 }
 
 .box__container--flex {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
@@ -21,17 +21,17 @@
 }
 
 .box__container__flex--colum {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     margin-left: 49px;
   }
   position: relative;
 }
 .box__img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
     display: inline-block;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     position: absolute;
     top: 24px;
     left: 20px;
@@ -39,7 +39,7 @@
 }
 
 .box__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     font-family: Advent Pro;
     font-size: 24px;
@@ -48,7 +48,7 @@
     line-height: normal;
     margin: 20px 0;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #000;
     font-family: Bebas Neue;
     font-size: 48px;
@@ -61,7 +61,7 @@
 }
 
 .box__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #696969;
     text-align: center;
     font-family: Roboto;
@@ -71,7 +71,7 @@
     line-height: 150%;
     margin-bottom: 20px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 400px;
     font-size: 16px;
   }
@@ -88,10 +88,10 @@
   }
 }
 .box__button {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 280px;
     height: 70px;
     background: #01a3a4;
@@ -118,23 +118,23 @@
 }
 
 .box__container__img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     gap: 4px;
     align-items: center;
     justify-content: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
   }
 }
 
 .box__img_1 {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 140px;
     width: 100%;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 130px;
     margin-right: 12px;
   }
@@ -145,12 +145,12 @@
 }
 
 .box__img_2 {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 140px;
     width: 100%;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 130px;
   }
   @media screen and (min-width: 1024px) {
@@ -159,7 +159,7 @@
   }
 }
 .box__button--mob {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 288px;
     width: 100%;
     height: 60px;
@@ -177,7 +177,7 @@
     margin-top: 20px;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
   &:hover,

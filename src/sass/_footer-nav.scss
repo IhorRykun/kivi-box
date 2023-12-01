@@ -1,18 +1,18 @@
 .footer {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding: 31px 10px;
     padding-bottom: 10px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
   }
   padding: 0;
 }
 
 .container__footer--flex--lep {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: block;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 70px 0;
     display: flex;
     justify-content: space-between;
@@ -23,22 +23,22 @@
 }
 
 .footer__logo {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: block;
     margin: 0 auto;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     order: 2;
     width: 95px;
   }
 }
 
 .footer__list__link {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin: 30px 0;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     order: 1;
     gap: 10px;
@@ -46,7 +46,7 @@
 }
 
 .footer__link {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #212121;
     text-align: center;
     font-family: Bebas Neue;
@@ -57,7 +57,7 @@
     letter-spacing: 0.8px;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #212121;
     font-family: Bebas Neue;
     font-size: 18px;
@@ -69,17 +69,17 @@
 }
 
 .footer__item__link {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 20px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
   }
 }
 .footer__item__link:last-child {
   margin-bottom: 0;
 }
 .social__item {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: block;
     border: 1px solid #01a3a4;
     border-radius: 50%;
@@ -88,7 +88,7 @@
     padding: 8px 8px;
     margin-left: 20px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 40px;
     height: 40px;
     border: 1px solid #01a3a4;
@@ -100,16 +100,16 @@
 }
 
 .social__item:first-child {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
   }
 }
 .social__list {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     justify-content: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     order: 3;
     gap: 20px;
@@ -117,13 +117,13 @@
 }
 
 .social__link {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
   fill: #01a3a4;
 }
 
 .footer__decor--line::before {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     width: 288px;
     height: 1px;
     background: #f0f8f6;
@@ -133,7 +133,7 @@
 }
 
 .footer__decor--line {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     width: 288px;
     height: 1px;
     background: #f0f8f6;
@@ -142,7 +142,7 @@
     display: flex;
     justify-content: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
@@ -150,7 +150,7 @@
 }
 
 .footer__decor__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #696969;
     text-align: right;
     font-family: Roboto;
@@ -162,11 +162,11 @@
 }
 
 .footer__list__decor {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     margin-top: 16px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     color: #696969;
     gap: 850px;
@@ -180,27 +180,27 @@
   }
 }
 .footer__svg {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-left: 5px;
     margin-top: 10px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
   }
 }
 
 .tex--left-auto {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
   }
 }
 
 .footer__decor__text--margin {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-right: 10px;
   }
 }
 
 .display__none {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }

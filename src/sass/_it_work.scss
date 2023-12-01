@@ -1,15 +1,15 @@
 .it__work {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding: 50px 22px;
     padding-bottom: 30px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0;
   }
 }
 
 .it__work__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Advent Pro;
@@ -19,7 +19,7 @@
     line-height: normal;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     font-size: 48px;
     font-style: normal;
@@ -31,20 +31,20 @@
 }
 
 .it_work__img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin: 30px 0;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
   }
 }
 .it_work__list {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -53,14 +53,14 @@
 }
 
 .it_work__item {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 .it__work__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     font-family: Advent Pro;
     font-size: 18px;
@@ -69,7 +69,7 @@
     line-height: normal;
     letter-spacing: 0.9px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #000;
     text-align: center;
     font-family: Bebas Neue;
@@ -83,12 +83,12 @@
 }
 
 .it__work__img--line {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 .it__work__text__about {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #696969;
     text-align: center;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -103,7 +103,7 @@
     max-width: 288px;
     width: 100%;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #696969;
     text-align: center;
     font-family: Roboto;
@@ -117,7 +117,7 @@
 }
 
 .it__work__text__about::after {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     position: absolute;
     bottom: -34px;
     left: 20px;
@@ -130,7 +130,7 @@
 }
 
 .it__work__text__about::before {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     position: absolute;
     bottom: -34px;
     right: 20px;
@@ -143,7 +143,7 @@
 }
 
 .it__work__text__about--none {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #696969;
     text-align: center;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -159,7 +159,7 @@
 }
 
 .it__work__button {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 288px;
     width: 100%;
     height: 60px;
@@ -179,7 +179,7 @@
     margin: 0 auto;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 280px;
     height: 70px;
     border-radius: 50px;

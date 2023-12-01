@@ -7,14 +7,13 @@
   left: 0;
   z-index: 1000;
   &__modal {
-    @media screen and (max-width: 666px) {
+    @media screen and (max-width: 767px) {
       width: 288px;
       display: block;
       background: #fff;
       border-radius: 20px;
-  
     }
-    @media screen and (min-width: 667px) {
+    @media screen and (min-width: 768px) {
       width: 804px;
       background-color: #fff;
       display: flex;
@@ -27,31 +26,31 @@
   }
 }
 .wraper__modal__container__imgages {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
     height: 150px;
     display: block;
     border-radius: 20px 20px 0px 0px;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     border-radius: 20px 0px 0px 20px;
   }
 }
 
 .modal__text--right {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0 0 62px;
   }
 }
 .modal__text--right__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     font-size: 46px;
     font-style: normal;
@@ -63,10 +62,10 @@
 }
 
 .modal__text--right-span {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     font-size: 46px;
     font-style: normal;
@@ -77,10 +76,10 @@
 }
 
 .modal__text--right__title::after {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     content: ' ';
     display: block;
     background: url(../images/main/it_work/line_2.png);
@@ -91,10 +90,10 @@
 }
 
 .modal__about__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     font-size: 24px;
     font-style: normal;
@@ -108,10 +107,10 @@
 }
 
 .modal__button {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 280px;
     height: 70px;
     border-radius: 50px;

@@ -1,10 +1,10 @@
 .about {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding: 50px 16px;
     padding-bottom: 30px;
     background: #f0f8f6;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0 44px 0;
     background-color: #f0f8f6;
   }
@@ -12,23 +12,23 @@
 }
 
 .about__img__wave {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin: 0 auto;
     margin-bottom: 10px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .about__container--flex {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: block;
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -36,7 +36,7 @@
 }
 
 .about__text-one {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
     margin-bottom: 20px;
     color: #01a3a4;
@@ -50,7 +50,7 @@
     text-transform: uppercase;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #01a3a4;
     margin-left: 68px;
     font-family: Roboto;
@@ -64,14 +64,14 @@
 }
 
 .about__container--absolut {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     position: relative;
     z-index: 2;
   }
 }
 
 .about__text--h2 {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     text-align: center;
     font-family: Advent Pro;
@@ -82,7 +82,7 @@
     max-width: 320px;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     font-size: 48px;
     font-style: normal;
@@ -94,10 +94,10 @@
 }
 
 .about__text--h2::after {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     content: '';
     display: block;
     background: url(../../src/images/main/it_work/line_2.png);
@@ -109,20 +109,20 @@
   }
 }
 .about__img__box {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-top: 25px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .about__img__box--leptop {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (max-width: 1023px) {
-    width: 667px;
+    width: 768px;
     margin-top: -352px;
     margin-left: -10px;
   }
@@ -134,7 +134,7 @@
 }
 
 .about__text--h3 {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #212121;
     font-family: Bebas Neue;
     font-size: 32px;
@@ -144,13 +144,13 @@
     letter-spacing: 1.6px;
     text-transform: uppercase;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .about__text--h3-span {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #01a3a4;
     font-family: Bebas Neue;
     font-size: 32px;
@@ -161,7 +161,7 @@
     text-transform: uppercase;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #01a3a4;
     font-family: Bebas Neue;
     font-size: 96px;
@@ -174,11 +174,11 @@
 }
 
 .about__text--h3--leptop {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #212121;
 
     font-family: Bebas Neue;
@@ -206,7 +206,7 @@
 }
 
 .about__text--h3-span--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #01a3a4;
     font-family: Bebas Neue;
     font-size: 96px;
@@ -219,7 +219,7 @@
 }
 
 .about__input {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 288px;
     width: 100%;
     height: 60px;
@@ -236,7 +236,7 @@
     text-align: center;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 595px;
     height: 100px;
 
@@ -258,7 +258,7 @@
 }
 
 .about___button {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 12rem;
     width: 100%;
     height: 2.5rem;
@@ -276,7 +276,7 @@
     margin-bottom: 10px;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 280px;
     height: 70px;
     background-color: #01a3a4;
@@ -303,7 +303,7 @@
 }
 
 .about__text--button {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #c4c4c4;
     font-family: Roboto;
     font-size: 12px;
@@ -313,7 +313,7 @@
     text-decoration-line: underline;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #c4c4c4;
     font-family: Roboto;
     font-size: 12px;
@@ -326,10 +326,10 @@
 }
 
 .about__img__monsterra {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     position: absolute;
     top: -70px;
     left: -150px;

@@ -1,10 +1,10 @@
 .mission {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding-top: 54px;
     padding-bottom: 30px;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0;
     padding-bottom: 40px;
   }
@@ -12,7 +12,7 @@
 }
 
 .mission__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #01a3a4;
     font-family: Roboto;
     font-size: 12px;
@@ -24,7 +24,7 @@
     margin-top: 10px;
   }
 
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #01a3a4;
     font-family: Roboto;
     font-size: 14px;
@@ -38,18 +38,18 @@
   }
 }
 .mission__img__wave {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     position: absolute;
     margin-top: 4px;
   }
 }
 .mission__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     text-align: center;
     font-family: Bebas Neue;
@@ -60,7 +60,7 @@
     text-transform: uppercase;
     margin-top: 20px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #000;
     font-family: Bebas Neue;
     font-size: 96px;
@@ -73,7 +73,7 @@
 }
 
 .mission__text__h3 {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
     font-family: Galada;
     font-size: 26px;
@@ -82,7 +82,7 @@
     line-height: normal;
     color: #88e6c0;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     background: var(
       --1,
       linear-gradient(141deg, #74e6cf 13.88%, #c0e594 106.32%)
@@ -103,17 +103,17 @@
 }
 
 .mission__container__text__ab {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     position: relative;
   }
 }
 
 .mission__img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
     display: inline-block;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 124px;
     position: absolute;
     top: 50px;

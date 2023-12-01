@@ -1,9 +1,9 @@
 .whats {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding-top: 50px;
     padding-bottom: 30px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #fff;
@@ -15,13 +15,13 @@
 }
 
 .container--decor--line {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     border: 1px solid #f0f8f6;
   }
   border: none;
 }
 .whats__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 19px;
     color: #000;
     text-align: center;
@@ -32,7 +32,7 @@
     font-weight: 700;
     line-height: normal;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #000;
 
     text-align: center;
@@ -45,16 +45,16 @@
   }
 }
 .whats__container--mobile {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin: 0 auto;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .whats__img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin: 0 auto;
     margin-bottom: 25px;
     max-width: 290px;
@@ -63,7 +63,7 @@
 }
 
 .whats__text__h3 {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #000;
     font-family: Advent Pro;
     font-size: 18px;
@@ -77,13 +77,13 @@
 }
 
 .whats__img__wave {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-left: 25px;
     margin-bottom: 20px;
   }
 }
 .whats__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-left: 25px;
     color: #696969;
     font-family: Roboto;
@@ -95,7 +95,7 @@
 }
 
 .whats__button {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-left: 115px;
     border-radius: 50px;
     background: #f0f8f6;
@@ -119,7 +119,7 @@
   }
 }
 .whats__button__decors {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     background: linear-gradient(297deg, #74e6cf 0%, #c0e594 100%);
     width: 22px;
     height: 22px;
@@ -130,13 +130,13 @@
   }
 }
 .whats__container--leptop {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
 
 .whats__decors__plus {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     fill: #fff;
     width: 6px;
     height: 6px;
@@ -144,19 +144,19 @@
 }
 
 .whats__decor__line {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-top: 55px;
   }
 }
 
 .whats__img--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 389px;
   }
 }
 
 .whats__text--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 307px;
     color: #696969;
     min-height: 37px;
@@ -170,7 +170,7 @@
   }
 }
 .whats__list__title--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     color: #000;
     font-size: 24px;
@@ -188,14 +188,14 @@
 }
 
 .whats__list__img--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     gap: 28px;
   }
 }
 
 .whats__item__img--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     border: 1px solid #f0f8f6;
     background: #fff;
     padding-bottom: 20px;
@@ -213,7 +213,7 @@
   }
 }
 .whats__img--leptop-wave {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 60px;
     margin-top: 42px;
     margin-bottom: 30px;
@@ -221,7 +221,7 @@
 }
 
 .whats__button--leptop {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     border-radius: 50px;
     background: #01a3a4;
     width: 112px;
@@ -250,7 +250,7 @@
   }
 }
 .container__item--img--leptop--whats {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 47px 20px 0 20px;
     min-height: 247px;
   }

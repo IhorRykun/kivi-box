@@ -1,30 +1,30 @@
 .header {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding: 0.21rem 0.66rem;
     position: fixed;
     background-color: #fff;
     width: 100%;
     z-index: 2;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 20px 0;
   }
 }
 
 .heder__logo--mobile {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 96px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .header__logo--leptop {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 191px;
     display: block;
     cursor: pointer;
@@ -32,21 +32,21 @@
 }
 
 .wrapper {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     align-items: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
   }
 }
 
 .header__link_list {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
     gap: 100px;
@@ -55,7 +55,7 @@
 }
 
 .nav__item__link {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #212121;
     font-family: Bebas Neue;
     font-size: 24px;
@@ -68,13 +68,13 @@
 }
 
 .header__link_item--hover {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 100px;
     display: block;
   }
 }
 .header__link_item {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     gap: 100px;
     padding: 4px;
     display: block;
@@ -110,7 +110,7 @@
 }
 
 .burger__menu {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     position: absolute;
     width: 17px;
     height: 18px;
@@ -121,7 +121,7 @@
 }
 
 .burger__item {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -135,7 +135,7 @@
 
 .burger__item::after,
 .burger__item::before {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     content: '';
     position: absolute;
     width: 17px;
@@ -146,18 +146,18 @@
 }
 
 .burger__item::before {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     top: -4px;
   }
 }
 .burger__item::after {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     top: 4px;
   }
 }
 
 .header__menu {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     background-color: #f0f8f6;
     position: fixed;
     width: 300px;
@@ -173,24 +173,24 @@
   }
 }
 .nav__list {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
   }
 }
 .nav__item {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 55px;
   }
 }
 
 .nav__item:last-child {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 0;
   }
 }
 
 .header__link {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #212121;
     text-align: center;
     font-family: Bebas Neue;

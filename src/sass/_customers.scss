@@ -1,45 +1,45 @@
 .customers {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     padding: 50px 16px;
     padding-bottom: 30px;
     margin: 0 auto;
     z-index: 1;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding: 100px 0 118px 0;
   }
   position: relative;
 }
 
 .customers__container--flex {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
     justify-content: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     gap: 50px;
   }
 }
 .wrapper__carusel {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     max-width: 1300px;
   }
 }
 
 .wraper__img--avatar {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     width: 62px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 668px;
   }
 }
 
 .customers__title {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #01a3a4;
     font-family: Roboto;
     font-size: 12px;
@@ -50,7 +50,7 @@
     text-transform: uppercase;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     color: #01a3a4;
 
     font-family: Roboto;
@@ -64,7 +64,7 @@
 }
 
 .customers__title__cl {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     font-family: Advent Pro;
     font-size: 24px;
     font-style: normal;
@@ -74,7 +74,7 @@
     margin-bottom: 34px;
     text-align: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     font-family: Bebas Neue;
     font-size: 48px;
     font-style: normal;
@@ -84,15 +84,15 @@
 }
 
 .customers__avatars--leptop {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     max-width: 62px;
     max-height: 68px;
 
     display: block;
     border-radius: 50%;
   }
-  @media screen and (min-width: 667px) {
-    width: 667px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
     margin-top: 50px;
     object-fit: cover;
   }
@@ -100,10 +100,10 @@
 }
 
 .container__customers__stars {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-left: 10px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: flex-start;
     margin-top: 96px;
@@ -116,20 +116,20 @@
 }
 
 .container__customers__stars--img {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-top: 7px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     margin-right: 100px;
   }
   position: relative;
 }
 
 .customer__text__lorem {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     margin-top: 85px;
     width: 565px;
     height: 281px;
@@ -144,19 +144,19 @@
 }
 
 .customer__text__lorem--span {
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     padding-top: 20px;
     display: block;
   }
 }
 
 .start__text {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     position: absolute;
     top: 32px;
     right: -26px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     right: 68px;
     top: 1px;
   }
@@ -170,7 +170,7 @@
 }
 
 .customers__about {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     color: #696969;
     font-family: Roboto;
     font-size: 14px;
@@ -181,23 +181,23 @@
     overflow-y: scroll;
     margin-top: 15px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .customers__about--span {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-top: 7px;
   }
 }
 
 .customers__list__decor {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     display: flex;
     justify-content: center;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     display: block;
     margin-left: 546px;
     margin-top: 40px;
@@ -206,7 +206,7 @@
 }
 
 .customers__item__decor {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     width: 30px;
     height: 30px;
     display: block;
@@ -215,7 +215,7 @@
     margin-top: 34px;
     cursor: pointer;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 45px;
     height: 45px;
     display: block;
@@ -227,7 +227,7 @@
 }
 
 .customers__item__decor--span {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     width: 22px;
     height: 22px;
     display: block;
@@ -235,7 +235,7 @@
     background-color: #74e7d0;
     margin: 4px 4px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     width: 35px;
     height: 35px;
     display: block;
@@ -246,11 +246,11 @@
 }
 
 .customers__item__decor--svg {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     fill: #fff;
     margin: 6px 6px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     fill: #fff;
     margin: 10px 10px;
     width: 16px;
@@ -259,10 +259,10 @@
 }
 
 .customer__img__wave {
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 767px) {
     margin-top: 25px;
   }
-  @media screen and (min-width: 667px) {
+  @media screen and (min-width: 768px) {
     position: absolute;
     top: 88px;
     left: 0;

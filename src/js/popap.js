@@ -1,7 +1,3 @@
 $(document).ready(function () {
- $('..pop__link').magnificPopup({ type: 'image' });
- 
-
-
- 
+  $('.pop__link').magnificPopup({ type: 'image' });
 });
