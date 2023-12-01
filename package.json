@@ -2,20 +2,20 @@
   "name": "kivi-box",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ihorrykun.github.io/kivi-box/",
+  "homepage": "ttps://github.com/IhorRykun/kivi-box/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IhorRykun/kivi-box.git"
+    "url": "git+git+https://github.com/kivi-box"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "ihor rykun <ihorrykun@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/IhorRykun/kivi-box"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.24",
