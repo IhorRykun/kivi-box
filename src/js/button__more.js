@@ -1,6 +1,12 @@
-const more = document.querySelectorAll('.whats__button--leptop');
-const textSpan = document.querySelectorAll('.button-more--span');
+(() => {
+  const container = document.querySelector('.whats__button--leptop');
+  const textSpan = document.querySelector('.button-more--span');
 
-more.addEventListener('click', () => {
-  textSpan.classList.toggle('veritatis-nan');
-});
+  container.addEventListener('click', addMore);
+
+  function addMore() {
+    const addClass = textSpan.classList.toggle('display-nan');
+    console.log(addClass);
+    return addClass;
+  }
+})();
