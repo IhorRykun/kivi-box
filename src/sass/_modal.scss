@@ -137,3 +137,20 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+.button__close {
+  display: block;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 160px;
+  right: 506px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #01a3a4;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
