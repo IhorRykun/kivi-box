@@ -44,6 +44,7 @@
 
   @media screen and (min-width: 768px) {
     padding: 100px 0 0 62px;
+    position: relative;
   }
 }
 .modal__text--right__title {
@@ -139,14 +140,16 @@
 }
 
 .button__close {
-  display: block;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 160px;
-  right: 506px;
-  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    display: block;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: -108px;
+    cursor: pointer;
+  }
 
   &:hover,
   &:focus {

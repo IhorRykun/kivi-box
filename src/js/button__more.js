@@ -1,12 +1,11 @@
 (() => {
-  const container = document.querySelector('.whats__button--leptop');
-  const textSpan = document.querySelector('.button-more--span');
+  const container = document.querySelector('#whots');
+  const textSpan = document.querySelector('#span-more');
 
-  container.addEventListener('click', addMore);
-
-  function addMore() {
-    const addClass = textSpan.classList.toggle('display-nan');
-    console.log(addClass);
-    return addClass;
-  }
+  container.addEventListener('click', e => {
+    if (e.target.id !== 'more') {
+      return;
+    }
+    textSpan.classList.toggle('display-nan');
+  });
 })();
